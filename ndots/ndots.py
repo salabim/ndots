@@ -130,7 +130,7 @@ class _Dots:
         the number of dots of s : int
 
         """ 
-       return len(self._str_to_pixel_lines(s, default=default, intra=intra, proportional=proportional, narrow=narrow)[0])
+        return len(self._str_to_pixel_lines(s, default=default, intra=intra, proportional=proportional, narrow=narrow)[0])
 
     def grid(self, s, default=" ", intra=1, proportional=False, width=None, align="c", narrow=False):
         """
